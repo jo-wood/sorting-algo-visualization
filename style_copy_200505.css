@@ -1,0 +1,134 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(200, 200, 200);
+  /* line-height: 1.4; */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  padding: 0 30px;
+}
+
+.box {
+  background: #fff;
+  border: rgb(100, 100, 100) solid 0.5px;
+  width: 25px;
+  height: 250px;
+  margin: 0 3px;
+}
+
+.navbar {
+  height: 70px;
+  background: rgb(100, 100, 100);
+}
+
+.navbar .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 50px;
+  height: 100%;
+}
+
+.navbar .main-nav a {
+  text-decoration: none;
+  padding: 0 15px;
+  color: #fff;
+  transition: all 0.25s;
+  font-size: 1.25rem;
+}
+
+.navbar .main-nav a:hover{
+  text-decoration: underline;
+  color: rgba(111, 228, 183, 0.966);
+}
+
+.navbar .container .mid-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.navbar .container .mid-nav label {
+  padding-bottom: 5px;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.navbar .container .mid-nav input {
+  height: 1.25rem;
+  font-size: 0.8rem;
+  padding: 3px;
+  width: 75px;
+  border-radius: 2px;
+}
+
+.navbar .container .mid-nav input:focus {
+  outline: none;
+}
+
+.navbar .container .sort-speed {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.navbar .container .sort-speed label {
+  padding-bottom: 5px;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.navbar .container .sort-speed input {
+  height: 1.25rem;
+  font-size: 0.8rem;
+  padding: 3px;
+  width: 75px;
+  border-radius: 2px;
+}
+
+.navbar .container .sort-speed input:focus {
+  outline: none;
+}
+
+.navbar .side-nav ul{
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar .side-nav ul li {
+  padding: 0 15px;
+  list-style: none;
+}
+
+.navbar .side-nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.25s;
+  font-size: 1.25rem;
+}
+
+.navbar .side-nav ul li a:hover{
+  text-decoration: underline;
+  color: rgba(111, 228, 183, 0.966);
+}
+
+
+
+
+
+
+

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Sorting Algorithms</title>
+</head>
+
+<body>
+
+  <div class="navbar">
+    <div class="container">
+      <div class="main-nav">
+        <a href='#' id="red">Red</a>
+        <a href='#' id="green">Green</a>
+        <a href='#' id="blue">Blue</a>
+      </div>
+      <div class="mid-nav">
+        <label for="squares-amount">Number of blocks:</label>
+        <!-- <input type="number" name="squares-amount" id="squares-amount" value='30'> -->
+        <div class='slider-container'>
+          <input type="range" name="squares-amount" id="squares-amount" min='10' max='75' value='30'> <span
+            id='squares-value'>30</span>
+        </div>
+      </div>
+      <div class='sort-speed'>
+        <label for="sorting-speed">Sorting speed (iteration/ms):</label>
+        <!-- <input type="number" name="sorting-speed" id="sorting-speed" value='25'> -->
+        <div class='slider-container'>
+          <input type="range" name="sorting-speed" id="sorting-speed" value='50' min='10' max='500'> <span
+            id='speed-value'>50</span>
+        </div>
+      </div>
+      <div class="side-nav">
+        <!-- Add different sorting type buttons here -->
+        <ul>
+          <li class='bubble-sort'><a href="#">Bubble Sort</a></li>
+          <li class='selection-sort'><a href="#">Selection Sort</a></li>
+          <li class='insertion-sort'><a href="#">Insertion Sort</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="box-container">
+  </div>
+
+
+
+  <script src='app.js'></script>
+</body>
+
+</html>
