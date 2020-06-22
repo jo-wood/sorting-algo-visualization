@@ -16,7 +16,6 @@ const selectionSort = document.querySelector('.selection-sort');
 const insertionSort = document.querySelector('.insertion-sort');
 
 // Features:
-// - style range slider (maybe have knob be same color as color of blocks...)
 // - show alert (add div) when sorting algorithm commences / finishes (not window alerts! - my own)
 // - disable sorting buttons while sorting is in progress
 // - add more sorting methods!
@@ -132,13 +131,13 @@ function colorScale() {
 }
 
 function whatColor(array) {
-  if (isRed === true) {
+  if (isRed) {
     addSquaresToHTMLRed(array)
   }
-  if (isGreen === true) {
+  if (isGreen) {
     addSquaresToHTML(array);
   }
-  if (isBlue === true) {
+  if (isBlue) {
     addSquaresToHTMLBlue(array);
   }
 }
